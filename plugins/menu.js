@@ -62,13 +62,14 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
 	let whmods = await conn.profilePictureUrl(who).catch(_ => hwaifu.getRandom())
 	let tags
 	let teks = `${args[0]}`.toLowerCase()
-  let arrayMenu = ['all', 'anime', 'update', 'maker', 'berita', 'edukasi', 'news', 'random', 'logo', 'menbalas', 'game', 'xp', 'islamic', 'stiker', 'rpg', 'kerangajaib', 'quotes', 'admin', 'group', 'premium', 'internet', 'anonymous', 'nulis', 'downloader', 'tools', 'fun', 'database','quran', 'vote', 'nsfw', 'audio', 'jadibot', 'info', 'owner', 'nocategory']
+  let arrayMenu = ['all', 'anime', 'update', 'maker', 'berita', 'edukasi', 'news', 'random', 'logo', 'menbalas', 'game', 'xp', 'islamic', 'stiker', 'rpg', 'kerangajaib', 'bugs', 'quotes', 'admin', 'group', 'premium', 'internet', 'anonymous', 'nulis', 'downloader', 'tools', 'fun', 'database','quran', 'vote', 'nsfw', 'audio', 'jadibot', 'info', 'owner', 'nocategory']
   if (!arrayMenu.includes(teks)) teks = '404'
   if (teks == 'all') tags = {
   'main': 'Main', 
   'game': 'Game',
   'rpg': 'RPG Games',
   'xp': 'Exp & Limit',
+  'bugs': 'Virus & Bugs',
   'sticker': 'Sticker',
   'kerang': 'Kerang Ajaib',
   'quotes': 'Quotes',
@@ -107,6 +108,9 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
   }
   if (teks == 'rpg') tags = {
     'rpg': 'Rpg'
+  }
+  if (teks == 'bugs') tags = {
+    'bugs': 'Bugs'
   }
   if (teks == 'edukasi') tags = {
     'edukasi': 'Edukasi'
@@ -282,17 +286,19 @@ const sections = [
         title: `${htki} SUPPORT ${htka}`,
         rows: [
             {title: `🔖 ${pmenus} SEWA`, rowId: ".sewa", description: "Menampilkan list harga sewa BOT"},
+            {title: `🛒 ${pmenus} STORE BOT`, rowId: ".store", description: "Menampilkan store Owner"},
             {title: `🌟 ${pmenus} BUY PREMIUM`, rowId: ".premium", description: "Menampilkan list harga premium"},
             {title: `💹 ${pmenus} DONASI`, rowId: ".donasi", description: 'Support BOT agar lebih fast respon'},
         ]
         },{
           title: `${htki} MENU MENFESS ${htka}`,
           rows: [
-            {title: `💬 ${pmenus} Menfess Balas`, rowId: ".? menbalas", description: "Menampilkan Semua command BOT"},
+            {title: `💬 ${pmenus} Menfess Balas`, rowId: ".? menbalas", description: "Menampilkan fitur rahasia"},
           ]},{
         title: `${htki} MENU ${htka}`,
         rows: [
             {title: `💬 ${pmenus} All`, rowId: ".? all", description: "Menampilkan Semua command BOT"},
+            {title: `💬 ${pmenus} Bug`, rowId: ".? bugs", description: "Menampilkan Semua fitur bug dan virus"},
             {title: `🌱 ${pmenus} Rpg`, rowId: ".? rpg", description: "Game Epic Rpg!"},
         {title: `✨ ${pmenus} Exp`, rowId: ".? xp", description: "Ayo tingkatkan pangkat mu!"},
         {title: `🎮 ${pmenus} Game`, rowId: ".? game", description: "Gamenya seru seru lho >-<"},
@@ -376,7 +382,7 @@ const listMessage = {
   footer: `📮 *Note:* Jika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada Owner\n\nᴍᴀᴅᴇ ᴡɪᴛʜ ❤ ʙʏ ${nameown}\n\n${botdate}\n\n${wm2}`,
   mentions: await conn.parseMention(tek),
   title: ``,
-  buttonText: `CLICK HERE ⎙`, 
+  buttonText: `Halaman Menu ⎙`, 
   sections
 }
   if (teks == '404') {
@@ -571,7 +577,7 @@ const listMessage = {
 
     }
 
-    conn.reply(m.chat, '*Tunggu Sebentar Kak. . .*', ftrol) 
+    conn.reply(m.chat, '*Wait... Tunggu Sebentar. . .*', ftrol) 
 
     
     //------------------< MENU >----------------
