@@ -1,20 +1,21 @@
 
 ## CATATAN
 Script ini untuk semua orang, bukan untuk Dijual. Jika dijual neraka menunggumu kakak !
+SC ini Di recode Oleh ARSYAD
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 <p align="center">
     <img src="https://telegra.ph/file/a0f1e6e95ba099f33d381.jpg" width="100%" style="margin-left: auto;margin-right: auto;display: block;">
 </p>
-<h1 align="center">WH MODS BOT - MD</h1>
+<h1 align="center">AR MODS BOT - MD</h1>
 <p align="center">
-  <a href="https://github.com/WH-MODS-BOT"><img src="http://readme-typing-svg.herokuapp.com?color=FFFFFF&center=true&vCenter=true&multiline=false&lines=WH+MODS+BOT+Multi+Device;Base+ori+by;BochilGaming+And+KANNACHAN;Recode+By+WH+MODS+DEV;Give+star+and+forks+this+Repo+:D;Follow+My+Github" alt="ʘᴗʘ">
+  <a href="https://github.com/AR-MODS-BOT"><img src="http://readme-typing-svg.herokuapp.com?color=FFFFFF&center=true&vCenter=true&multiline=false&lines=AR+MODS+BOT+Multi+Device;Base+ori+by;BochilGaming+And+KANNACHAN;Recode+By+AR+MODS+DEV;Give+star+and+forks+this+Repo+:D;Follow+My+Github" alt="ʘᴗʘ">
 </p>
 
 <p align="center">
- <a href="#"><img title="WH-MODS-BOT" src="https://img.shields.io/badge/-WH--MODS--BOT--MD-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+ <a href="#"><img title="AR-MODS-BOT" src="https://img.shields.io/badge/-AR--MODS--BOT--MD-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
 <p align="center">
-<a href="https://github.com/WH-MODS-BOT"><img title="Author" src="https://img.shields.io/badge/AUTHOR-WH--MODS--BOT-green?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/AR-MODS-BOT"><img title="Author" src="https://img.shields.io/badge/AUTHOR-AR--MODS--BOT-green?style=for-the-badge&logo=github"></a>
     
 # Ambil Session Disini
 
@@ -23,7 +24,7 @@ Script ini untuk semua orang, bukan untuk Dijual. Jika dijual neraka menunggumu 
 
 ---------
 ## ```Connect With Me 📞``` <img src="https://github.com/siegrin/siegrin/blob/main/Assets/Handshake.gif" height="32px">
-  <a href="https://wa.me/6285736178354">
+  <a href="https://wa.me/6283193831650">
     <img align="left" alt="SIEGRIN | Whastapp" width="26px" src="https://github.com/siegrin/siegrin/blob/main/Assets/Whatsapp.svg" />
   </a> &nbsp;&nbsp;
   <a href="https://www.instagram.com/_ctzhid_">
