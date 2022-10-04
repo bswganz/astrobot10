@@ -1,1 +1,1 @@
-worker: npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
+worker: node . --db 'mongodb+srv://ArsyadDev1:F1onno4RVDBs8NXA@cluster0.8hsft5s.mongodb.net/?retryWrites=true&w=majority'
