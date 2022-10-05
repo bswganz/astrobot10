@@ -44,6 +44,7 @@ const sections = [
 	{title: "📱 • Nomor Owner", rowId: ".owner nomor"},
 	{title: "📱 • Nomor Owner V2", rowId: ".whmods1"},
 	{title: "📱 • Pengembang", rowId: ".whmods2"},
+	title: "📱 • Mastah Ku ):", rowId: ".whmods4"},
 	{title: "📱 • Creator", rowId: ".whmods3"},
 	{title: "🎨 • Biodata", rowId: ".owner bio"},
 	{title: "🌎 • Script", rowId: ".sc"},
@@ -53,6 +54,7 @@ const sections = [
 	rows: [
 	    {title: "💹 • Donasi", rowId: ".owner nomor"},
 	{title: "🔖 • Sewa", rowId: ".sewa"},
+	{title: "🛒 • Store Bot", rowId: ".store"},
 	{title: "🌟 • Buy Premium", rowId: ".premium"},
 	]
   },
@@ -62,7 +64,7 @@ const listMessage = {
   text: teks,
   footer: null,
   title: `${htki} *OWNER* ${htka}`,
-  buttonText: "Click Here !",
+  buttonText: "Klik ini !",
   sections
 }
 
