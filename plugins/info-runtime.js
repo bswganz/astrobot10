@@ -28,7 +28,8 @@ const sections = [
     },{
 	title: `${htjava} SUPPORT ME –––––––·•`,
 	rows: [
-	    {title: "💹 • Donasi", rowId: ".owner nomor"},
+	    {title: "💹 • Donasi", rowId: ".donasi"},
+        {title: "🛒 • STORE", rowId: ".store"},
 	{title: "🔖 • Sewa", rowId: ".sewa"},
 	{title: "🌟 • Buy Premium", rowId: ".premium"},
 	]
@@ -39,7 +40,7 @@ const listMessage = {
   text: teks,
   footer: null,
   title: `${htki} *RUNTIME* ${htka}`,
-  buttonText: "Click Here !",
+  buttonText: "Lihat Sekarang !",
   sections
 }
 
