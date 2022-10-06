@@ -15,16 +15,16 @@ let str = `${global.wm}
 │ • *Ovo:* [${global.povo}]
 │ • *Link Aja:* [${global.plinkaja}]
 ❏────`
-let wibu = `https://i.ibb.co/P5BBzbf/286637238-392674839545088-948545114162206238-n.jpg` 
+let wibu = `https://telegra.ph/file/1fc8425ad032e21b145bd.jpg` 
 let thumb = await(await fetch(wibu)).buffer()
 conn.sendButtonDoc(m.chat, str, wm,'Sewa Bot','.sewa', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: "https://Instagram.com/_ctzhid",
-    mediaType: "VIDEO",
-    description: "https://www.instagram.com/p/CevoCg5hG-p/?utm_source=ig_web_copy_link", 
-    title: 'WH-MODS-DEV-V1 MultiDevice',
+    mediaUrl: "https://api.whatsapp.com/send?phone=+6283193831650",
+    mediaType: "PHOTOS", 
+    description: "Donasi Cek sini"
+    title: 'AR-MODS-DEV-V3 MultiDevice',
     body: wm,
     thumbnail: thumb,
-    sourceUrl: sig
+    sourceUrl: "https://api.whatsapp.com/send?phone=+6283193831650"
   }
   } }) 
           }
