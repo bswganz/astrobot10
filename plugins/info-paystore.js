@@ -2,16 +2,16 @@ let handler = async (m, { conn }) => {
 	//-----PRICE
 //sewa
 let sh = '5'
-let sn = '15'
-let ss = '30'
+let sn = '10'
+let ss = '25'
 let sp = '35'
 let sv = '65'
 //premium
 let ph = '5'
-let pn = '20'
-let pp = '40'
+let pn = '10'
+let pp = '35'
 let pv = '50'
-let ppm = '70'
+let ppm = '65'
 let info = `
 ╭━━━━「 *SEWA* 」
 ┊⫹⫺ *Hemat:* _${sh}k/grup (1 minggu)_
@@ -26,15 +26,15 @@ let info = `
 ┊⫹⫺ *Normal:* _${pn}k (1 bulan)_
 ┊⫹⫺ *Pro:* _${pp}k (4 bulan)_
 ┊⫹⫺ *Vip:* _${pv}k (8 bulan)_                                               
-┊⫹⫺ *Permanent (jual script bot):* = _${ppm}k (Unlimited)_
+┊⫹⫺ *Permanent:* = _${ppm}k (Unlimited)_
 ╰═┅═━––––––๑
 
 *⫹⫺ PAYMENT:*
-• *Pulsa Telkomsel:* [${ppulsa}]
-• *Dana:* [${pdana}]
-• *Gopay:* [${pgopay}]
-• *Ovo:* [${povo}]
-• *Link Aja:* [${plinkaja}]
+• *Pulsa Axis:* [6283193831650]
+• *Dana:* [6283823763755]
+• *Gopay:* [Scan Qris Aja]
+• *Ovo:* [Scan Qris Aja]
+• *Link Aja:* [Scan Qris Aja]
 
 –––––– *🐾 Kebijakan* ––––––
 🗣️: Kak, Kok harganya mahal banget?
@@ -42,6 +42,7 @@ let info = `
 
 🗣️: Scam ga nih kak?
 💬: Enggalah, Owner 100% Tepati janji #STAYHALAL
+Dana atau pulsa yg sudah di tf tidak bisa di kembalikan
 
 ▌│█║▌║▌║║▌║▌║█│▌
 `
@@ -71,7 +72,7 @@ const listMessage = {
   text: info,
   footer: botdate,
   title: wm,
-  buttonText: "Click Here!",
+  buttonText: "Order Now",
   sections
 }
 await conn.sendMessage(m.chat, listMessage)
