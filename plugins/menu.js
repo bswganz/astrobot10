@@ -62,11 +62,12 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
 	let whmods = await conn.profilePictureUrl(who).catch(_ => hwaifu.getRandom())
 	let tags
 	let teks = `${args[0]}`.toLowerCase()
-  let arrayMenu = ['all', 'anime', 'update', 'maker', 'berita', 'edukasi', 'news', 'random', 'logo', 'menbalas', 'game', 'xp', 'islamic', 'stiker', 'rpg', 'kerangajaib', 'bugs', 'quotes', 'admin', 'group', 'premium', 'internet', 'anonymous', 'nulis', 'downloader', 'tools', 'fun', 'database','quran', 'vote', 'nsfw', 'audio', 'jadibot', 'info', 'owner', 'nocategory']
+  let arrayMenu = ['all', 'anime', 'update', 'maker', 'berita', 'edukasi', 'news', 'random', 'logo', 'menbalas', 'game', 'asupan', 'xp', 'islamic', 'stiker', 'rpg', 'kerangajaib', 'bugs', 'quotes', 'admin', 'group', 'premium', 'internet', 'anonymous', 'nulis', 'downloader', 'tools', 'fun', 'database','quran', 'vote', 'nsfw', 'audio', 'jadibot', 'info', 'owner', 'nocategory']
   if (!arrayMenu.includes(teks)) teks = '404'
   if (teks == 'all') tags = {
   'main': 'Main', 
   'game': 'Game',
+  'asupan': 'Asupan',
   'rpg': 'RPG Games',
   'xp': 'Exp & Limit',
   'bugs': 'Virus & Bugs',
@@ -108,6 +109,9 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
   }
   if (teks == 'rpg') tags = {
     'rpg': 'Rpg'
+  }
+  if (teks == 'asupan') tags = {
+    'asupan': 'Asupan'
   }
   if (teks == 'bugs') tags = {
     'bugs': 'Bugs'
@@ -298,12 +302,13 @@ const sections = [
         title: `${htki} MENU ${htka}`,
         rows: [
             {title: `💬 ${pmenus} All`, rowId: ".? all", description: "Menampilkan Semua command BOT"},
-            {title: `💬 ${pmenus} Bug`, rowId: ".? bugs", description: "Menampilkan Semua fitur bug dan virus"},
+            {title: `☠️ ${pmenus} Bug`, rowId: ".? bugs", description: "Menampilkan Semua fitur bug dan virus"},
             {title: `🌱 ${pmenus} Rpg`, rowId: ".? rpg", description: "Game Epic Rpg!"},
         {title: `✨ ${pmenus} Exp`, rowId: ".? xp", description: "Ayo tingkatkan pangkat mu!"},
         {title: `🎮 ${pmenus} Game`, rowId: ".? game", description: "Gamenya seru seru lho >-<"},
         {title: `🧩 ${pmenus} Fun`, rowId: ".? fun", description: "Fitur yang aman untuk keluarga"},
         {title: `🐚 ${pmenus} Kerang`, rowId: ".? kerangajaib", description: "Tanyakan pada ketua club"},
+       {title: `🐦 ${pmenus} Asupan`, rowId: ".? asupan", description: "Anak Kecil Gak Boleh :)"},
         {title: `📑 ${pmenus} Quotes`, rowId: ".? quotes", description: "Random Inspirasi"},
         {title: `⛩️ ${pmenus} Anime`, rowId: ".? anime", description: "Kamu wibu ya bang?"},
         {title: `🔞 ${pmenus} Nsfw`, rowId: ".? nsfw", description: "Tch, dasar sagne"},
