@@ -1,3 +1,22 @@
+
+WH-MODS-BOT
+/
+fix-bot-v3
+Public
+Code
+Issues
+1
+Pull requests
+2
+Actions
+Projects
+Security
+Insights
+fix-bot-v3/package.json
+@WH-MODS-BOT
+WH-MODS-BOT fix tiktok dengan scrape social_media_downloader
+ 1 contributor
+125 lines (125 sloc)  3.5 KB
 {
     "name": "wh-mods-dev",
     "version": "3.1.0",
@@ -110,6 +129,7 @@
         "similarity": "^1.2.1",
         "socket.io": "^4.5.2",
         "syntax-error": "^1.4.0",
+        "social_media_downloader": "^1.0.6",
         "terminal-image": "^2.0.0",
         "translate-google-api": "^1.0.4",
         "url-regex-safe": "^3.0.0",
