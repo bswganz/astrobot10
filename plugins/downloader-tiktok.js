@@ -1,4 +1,4 @@
---------------------------------------------- pakai scrape social_media_downloader --------------------------------------------------------
+//--------------------------------------------- pakai scrape social_media_downloader --------------------------------------------------------
 
 import fetch from 'node-fetch'
 import axios from 'axios'
